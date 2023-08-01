@@ -7,7 +7,7 @@
 
 
 a:root{
-    --primeira-color: rgb(51, 35, 66);
+    --primeira-color: rgb(76, 35, 110);
 }
 
 body
@@ -15,7 +15,7 @@ body
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 
-  background: linear-gradient(135deg, #c1bfda 0%, #2f137c 50%, #a757a7 100%);
+  background: linear-gradient(135deg, #484755 0%, #2f137c 50%, #a757a7 100%);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }

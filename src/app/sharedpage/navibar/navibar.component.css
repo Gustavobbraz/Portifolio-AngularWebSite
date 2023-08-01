@@ -1,5 +1,21 @@
 .navbar-light .navbar-nav .nav-link.active-link .navitem{
 
-  color: rgb(37, 3, 37);
+  color: rgb(228, 222, 228);
   font-weight: bold;
+  transition: transform 0.5s ease; /* Adiciona uma transição para o efeito de slide */
+
+}
+
+.navi{
+  background-color: rgb(87, 37, 134);
+}
+
+.nav-link {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.navbar-brand{
+  color: aliceblue;
+
 }
