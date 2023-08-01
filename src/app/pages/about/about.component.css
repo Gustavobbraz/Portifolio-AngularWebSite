@@ -76,6 +76,9 @@ header {
 .img {
   width: 150px; /* Defina o valor desejado para a largura da imagem */
   height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+  display: inline;
+  justify-content: center;
+
 }
 
 .contact
@@ -105,4 +108,21 @@ header {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+/* Estilos para a navbar responsiva */
+@media screen and (max-width: 768px) {
+  .about-me {
+    display: block;
+    background-image: none;
+  }
+
+  .img {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    image-resolution: 100px;
+
+  }
+
 }

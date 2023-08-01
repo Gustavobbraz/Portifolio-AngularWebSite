@@ -39,4 +39,14 @@ i
 
 }
 
+/* Estilos para a navbar responsiva */
+@media screen and (max-width: 768px) {
+  .col-lg-2 {
+    flex-direction: column;
+  }
+
+  .col-lg-2 a {
+    padding: 10px 0;
+  }
+}
 
