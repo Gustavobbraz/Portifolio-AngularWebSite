@@ -1,0 +1,79 @@
+/* Estilos gerais */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos do cabeçalho */
+header {
+
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile h1 {
+  font-size: 24px;
+}
+
+.profile p {
+  font-size: 18px;
+}
+
+/* Estilos da seção "Sobre Mim" */
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.about-me h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.about-me p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: aliceblue;
+}
+
+/* Estilos dos ícones */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #555;
+}
+
+.img {
+  width: 150px; /* Defina o valor desejado para a largura da imagem */
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+}

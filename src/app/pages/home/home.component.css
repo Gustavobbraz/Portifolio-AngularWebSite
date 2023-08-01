@@ -1,0 +1,68 @@
+.home{
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente o conteúdo da página */
+  align-items: center; /* Centraliza verticalmente o conteúdo da página */
+  height: 100vh; /* Defina uma altura para ocupar toda a janela do navegador */
+}
+
+/* Estilos do cabeçalho */
+header {
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile h1 {
+  font-size: 24px;
+}
+
+.profile p {
+  font-size: 18px;
+}
+
+/* Estilos da seção "Sobre Mim" */
+.about-me {
+  padding: 40px;
+}
+
+.about-me h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 18px;
+}
+
+/* Estilos dos ícones */
+.col-lg-2 {
+
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.col-lg-2 a {
+  display: inline-flex;
+  margin-right: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos de hover para os ícones (opcional) */
+.col-lg-2 a:hover {
+  color: rgb(100, 5, 100); /* Altere a cor de hover conforme desejado */
+}
